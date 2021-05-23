@@ -1,0 +1,7 @@
+Get-Process -Name "totally_not_malicious"
+taskkill /F /PID 1820
+Get-Process -Name "totally_not_malicious"
+Get-Process -Name "*razzle*"
+taskkill /F /PID 5608
+taskkill /F /PID 6516
+Get-Process -Name "*razzle*"
