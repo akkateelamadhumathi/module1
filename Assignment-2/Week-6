@@ -12,6 +12,6 @@ dpkg -s vlc
 #End malicious processes
 ps ax
 ps aux |grep "totally_not_maliicious"
-sudo kill 315
+sudo kill 314
 #change permission of secret file to public
 sudo chmod 777 /home/lab/super_secret_file.txt
